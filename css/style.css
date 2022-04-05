@@ -1,0 +1,255 @@
+.chats{
+  position:relative;
+  padding-top: 50px;
+  scroll-behavior: smooth;
+
+}
+
+.chats__heading{
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 1;
+  width: 437px;
+  height: 60px;
+}
+
+.chats__heading-input {
+  padding:6px 80px;
+  background: #F4F4F4;
+  border-radius: 8px;
+  position: relative;
+}
+
+
+.chats__heading-btn{
+  border:none;
+  border-radius: 5px;
+}
+
+.chats__list {
+  margin: 0;
+  padding:0;
+}
+
+.chats__item {
+  padding:20px;
+  height: 80px;
+  background: #F7F7F7;
+  cursor: pointer;
+  width: 437px;
+}
+
+.chats__item:hover {
+  background: #adc7cf;
+}
+
+
+.chats__item::after {
+  content: url("/img/icn_pin\ \(1\).png");
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  top: 43px;
+  left: 368px;
+  cursor: pointer;
+}
+
+.chats__item-name {
+  top: 18px;
+  left: 74px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+
+.chats__item-surname {
+  top:35px;
+  left:74px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+
+}
+
+.chats__item-message {
+  top:52px;
+  left:74px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+
+.chats__settings {
+  width: 437px;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+}
+
+.chats__settings-btn {
+  border:none;
+  background-color: transparent;
+}
+
+/* MESSAGE PART OF SITE */
+
+
+
+.message {
+  position: relative;
+  padding-top: 50px;
+}
+
+
+.message__heading {
+  position: fixed;
+  top: 0px;
+  padding-top: 10px;
+  background-color: #fff;
+  z-index: 1;
+  width:437px;
+  height: 60px;
+}
+
+
+
+.message__heading-close {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2481CC;
+}
+
+.message__heading-online {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #A9A9A9;
+margin-right: 5px;
+}
+
+.message__list {
+  list-style-type: none;
+}
+
+.message__item {
+  position: relative;
+  margin-left: 30px;
+}
+ 
+.message__item::before {
+  content: url("/img/avatar\ \(10\).png");
+  display: block;
+  position:absolute;
+  left: -50px;
+}
+
+.message__item-heading {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2481CC;
+}
+
+.message__item-link {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #2481CC;
+}
+
+.message__item-span {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #2481CC;
+}
+.message__input input {
+  border:none;
+  width: 437px;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+}
+
+.emojies {
+  position: relative;
+  padding-top: 80px;
+}
+
+.emojies__heading {
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  z-index: 1;
+  height: 60px;
+  padding:10px;
+  width: 437px;
+}
+
+.emojies__heading-image {
+  margin-left: 300px;
+}
+
+
+.emojies__recent {
+  margin-bottom: 50px;
+}
+
+.emojies__recent-stick {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #2481CC;
+
+}
+.emojies__heading-image {
+  margin-right: 50px;
+}
+
+.emojies__heading-edit {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight:bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2481CC;
+}
+
+.emojies__smiles-people {
+  padding:20px 0px;
+}
+
+.emojies__icons-list {
+  width: 437px;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.emojies__icons-item {
+  margin-left: 20px;
+  cursor: pointer;
+}
